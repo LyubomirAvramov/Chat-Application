@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="#" onsubmit="signup(); return false;">
+            <h1>Create an Account</h1>
+            <div class="input-box">
+                <label for="signup-fullname">Full Name</label>
+                <input type="text" id="signup-fullname" placeholder="Your Full Name" required>
+            </div>
+            <div class="input-box">
+                <label for="signup-username">Username</label>
+                <input type="text" id="signup-username" placeholder="Choose a Username" required>
+            </div>
+            <div class="input-box">
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" placeholder="Your Email" required>
+            </div>
+            <div class="input-box">
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" placeholder="Choose a Password" required>
+            </div>
+            <div class="input-box">
+                <label for="signup-confirm-password">Confirm Password</label>
+                <input type="password" id="signup-confirm-password" placeholder="Confirm Password" required>
+            </div>
+            <div class="input-box">
+                <label for="signup-birthday">Birthday</label>
+                <input type="date" id="signup-birthday" required>
+            </div>
+            <div class="input-box">
+                <label for="signup-gender">Gender</label>
+                <select id="signup-gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="input-box">
+                <button type="submit">Sign Up</button>
+            </div>
+            <p class="toggle-form-text">Already have an account? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
